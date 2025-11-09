@@ -388,19 +388,14 @@ ul.row {
     background: var(--color-black);
 }
 
-/* ===== additions for 23-style.css ===== */
-
-/* Footer address text color */
 .footer-address {
     color: var(--text-color);
 }
 
-/* Social links as block elements */
 .social-link {
     display: block;
 }
 
-/* SVG children of social links use the text color */
-.social-link svg {
+.social-link > svg {
     fill: var(--text-color);
 }
