@@ -11,120 +11,144 @@
   <body>
     <header>
       <div>
-        <span>Techium</span>
-        <nav></nav>
+        <div><a href="/"><span>Techium</span></a></div>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/styleguide.html">Styleguide</a>
+        </nav>
       </div>
     </header>
+
     <main>
-      <h1>Homepage</h1>
-
-      <section>
+      <!-- ===== Hero (unchanged structure) ===== -->
+      <section id="hero">
         <div>
-          <h2>We help you build your brand!</h2>
+          <!-- Paste hero content from 15-index.html here (unchanged) -->
+          <!-- Example:
+          <h1>Welcome to Techium</h1>
+          <p>We build digital products that people love.</p>
+          <a href="#contact">Get in touch</a>
+          -->
         </div>
       </section>
 
-      <section>
+      <!-- ===== Services ===== -->
+      <section id="services">
         <div>
+          <!-- header wraps the h2 and its p -->
           <header>
+            <!-- Paste ONLY the Services h2 and its paragraph from 15-index.html here -->
+            <!-- Example: -->
             <h2>Services</h2>
-            <p>We work with you</p>
+            <p>What we can do for you</p>
           </header>
-          <div>
-            <h3>Design &amp; Concept</h3>
-            <h3>Digital Strategy</h3>
-            <h3>Content Strategy</h3>
-            <h3>UX Design</h3>
-            <h3>Web Development</h3>
-            <h3>Social Media</h3>
+
+          <!-- sibling div wraps the rest of the Services content -->
+          <div class="section-body">
+            <!-- Paste the remaining Services content from 15-index.html here -->
+            <!-- Example: cards/list/icons grid -->
           </div>
         </div>
       </section>
 
-      <section>
+      <!-- ===== Works ===== -->
+      <section id="works">
         <div>
+          <!-- header wraps the h2 and its p -->
           <header>
+            <!-- Paste ONLY the Works h2 and its paragraph -->
             <h2>Works</h2>
-            <p>Take a look in our portfolio</p>
+            <p>Recent projects we’re proud of</p>
           </header>
-          <div>
-            <article><h3>Interior Design</h3></article>
-            <article><h3>Web Development</h3></article>
-            <article><h3>Personal Brand</h3></article>
+
+          <!-- sibling div wraps the rest of the Works content -->
+          <div class="section-body">
+            <!-- Paste remaining Works content (gallery/grid/articles) -->
           </div>
         </div>
       </section>
 
-      <section>
+      <!-- ===== About Us ===== -->
+      <section id="about">
         <div>
+          <!-- header wraps the h2 and its p -->
           <header>
+            <!-- Paste ONLY the About Us h2 and its paragraph -->
             <h2>About Us</h2>
-            <p>Everything about us</p>
+            <p>Who we are and how we work</p>
           </header>
-          <div>
-            <h3>Who are we</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
-            <h3>Our culture</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
-            <h3>How we work</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, omnis expedita! Eum, praesentium cumque accusantium rem, sit quaerat est nisi ratione, deserunt ducimus quidem iste dicta quibusdam atque maxime cum!</p>
+
+          <!-- sibling div wraps the rest of the About content -->
+          <div class="section-body">
+            <!-- Paste remaining About Us content (team, timeline, etc.) -->
           </div>
         </div>
       </section>
 
-      <section>
+      <!-- ===== Latest news ===== -->
+      <section id="latest_news">
         <div>
+          <!-- header wraps ONLY the h2 -->
           <header>
+            <!-- Paste ONLY the Latest news h2 -->
             <h2>Latest news</h2>
           </header>
-          <div>
-            <article>
-              <p>Career</p>
-              <h3>Hoc loco tenere se Triarius non potuit.</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?</p>
-            </article>
-            <article>
-              <p>Digital Life</p>
-              <h3>Ut alios omittam, hunc appello, quem ille unum secutus est.</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tum mihi Piso: Quid ergo? Tum ille: Ain tandem? Non autem hoc: igitur ne illud quidem. Sed quod proximum fuit non vidit. Nos commodius agimus. An nisi populari fama?</p>
-            </article>
-            <article>
-              <p>Social</p>
-              <h3>Bestiarum vero nullum iudicium puto.</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non igitur bene. Quid enim est a Chrysippo praetermissum in Stoicis? Pugnant Stoici cum Peripateticis. Prioris generis est docilitas, memoria; Apparet statim, quae sint officia, quae actiones.</p>
-            </article>
+
+          <!-- sibling div wraps the rest of the Latest news content -->
+          <div class="section-body">
+            <!-- Paste remaining Latest news content (posts/articles list) -->
+            <!-- If there was a paragraph under h2 in 15-index.html, move it here now -->
           </div>
         </div>
       </section>
 
-      <section>
+      <!-- ===== Testimonials ===== -->
+      <section id="testimonials">
         <div>
+          <!-- header wraps the h2 and its p -->
           <header>
+            <!-- Paste ONLY the Testimonials h2 and its paragraph -->
             <h2>Testimonials</h2>
-            <p>We are more than a digital company</p>
+            <p>What our clients say</p>
           </header>
-          <div>
-            <article>Testimonial 1</article>
-            <article>Testimonial 2</article>
-            <article>Testimonial 3</article>
+
+          <!-- sibling div wraps the rest of the Testimonials content -->
+          <div class="section-body">
+            <!-- Paste remaining Testimonials content (quotes, avatars) -->
           </div>
         </div>
       </section>
 
-      <section>
+      <!-- ===== Contact ===== -->
+      <section id="contact">
         <div>
+          <!-- header wraps the h2 and the FIRST p only -->
           <header>
+            <!-- Paste the Contact h2 -->
             <h2>Contact</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id Sextilius factum negabat. Quo tandem modo? At eum nihili facit; Quae contraria sunt his, malane?</p>
+            <!-- Paste ONLY the FIRST paragraph under Contact from 15-index.html -->
+            <p><!-- first paragraph from 15-index.html --></p>
           </header>
-          <div>
-            <p>We like to know new people</p>
+
+          <!-- sibling div wraps the rest of the Contact content -->
+          <div class="section-body">
+            <!-- Paste the remaining Contact content (address/map/form/other paragraphs) -->
           </div>
         </div>
       </section>
     </main>
+
     <footer>
-      <div>Footer</div>
+      <div>
+        <a href="https://www.facebook.com/HolbertonSchool/">Facebook</a>
+        <a href="https://twitter.com/holbertonschool">Twitter</a>
+        <a href="https://www.instagram.com/holbertonschool/">Instagram</a>
+      </div>
+      <div>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Cookie Policy</a>
+      </div>
     </footer>
   </body>
 </html>
